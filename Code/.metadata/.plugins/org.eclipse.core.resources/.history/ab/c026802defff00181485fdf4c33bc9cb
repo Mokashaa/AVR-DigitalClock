@@ -1,0 +1,16 @@
+/*
+ * AntonAndDanik.cpp
+ *
+ *  Created on: Dec 15, 2018
+ *      Author: Lenovo
+ */
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout << "hello world";
+	return 0;
+}
+
+
+

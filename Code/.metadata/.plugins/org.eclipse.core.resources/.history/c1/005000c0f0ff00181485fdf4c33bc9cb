@@ -1,0 +1,46 @@
+/*
+ * AntonAndDanik.cpp
+ *
+ *  Created on: Dec 15, 2018
+ *      Author: Lenovo
+ */
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main()
+{
+	int n;
+	string M;
+	int A=0;
+	int D=0;
+	cin>>n;
+	cin>>M;
+	for (int i=0;i<n;i++)
+	{
+		if (M[i]=='A')
+		{
+			A++;
+		}
+		else if (M[i]=='D')
+		{
+			D++;
+		}
+	}
+	if (A>D)
+	{
+		cout<<"Anton";
+	}
+	else if (D>A)
+	{
+		cout<<"Danik"
+	}
+	else
+	{
+		cout<<"Friendship";
+	}
+	fflush(stdin);
+	return 0;
+}
+
+
+
